@@ -1,0 +1,90 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/home"><img src="../../../assets/images/logo.svg"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  mr-auto">
+            <!--dropdown 1-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  routerLink="/home" role="button" data-toggle="dropdown" aria-expanded="false"
+                    style="  color: #0d6efd;">
+                    Home
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/home">Home Page1</a>
+                    <a class="dropdown-item" routerLink="/home">Home Page2</a>
+                    <a class="dropdown-item" routerLink="/home">Home Page3</a>
+                    <a class="dropdown-item" routerLink="/home">Home Page4</a>
+                    </div>
+            </li>
+            <!--dropdown 2-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="/about" role="button" data-toggle="dropdown" aria-expanded="false">
+                    About Me
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/home">My Portfolio</a>
+                    <a class="dropdown-item" routerLink="/home">My Portfolio 2</a>
+                    <a class="dropdown-item" routerLink="/home"> Portfolio Details</a>
+                    </div>
+            </li>
+            <!--dropdown 3-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="/category" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Category
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/category"> Blog Category1</a>
+                    <a class="dropdown-item" routerLink="/category">Blog Category2</a>
+                    <a class="dropdown-item" routerLink="/category">Blog Category3</a>
+                    <a class="dropdown-item" routerLink="/category">Blog Category4</a>
+                    <a class="dropdown-item" routerLink="/category">Blog Category5</a>
+                    </div>
+            </li>
+            <!--dropdown 4-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Single Post
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"> Blog Single1</a>
+                    <a class="dropdown-item" href="#">Blog Single2</a>
+                    <a class="dropdown-item" href="#">Blog single3</a>
+                    </div>
+            </li>
+            <!--dropdown 5-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Pages
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/about">About</a>
+                    <a class="dropdown-item" href="#">Author posts</a>
+                    <a class="dropdown-item" href="#">Contact</a>
+                    <a class="dropdown-item" href="#">Search results</a>
+                    <a class="dropdown-item" href="#">Login</a>
+                    <a class="dropdown-item" href="#">Signup</a>
+                    <a class="dropdown-item" href="#">Page 404</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <a class="btn btn-search" href="#"></a>
+                    </form>
+                </li>
+            </ul>
+            <button class="colored-btn" type="submit">Subscribe</button>
+        </form>
+    </div>
+</nav>

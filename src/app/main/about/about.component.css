@@ -1,0 +1,16 @@
+.main-switch {
+    width: 80%;
+    height: 300px;
+    border: 2px solid #334663;
+    background-color: rgb(19, 28, 49);
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    border-radius: 20px;
+}
+@media (max-width:750px) {
+    .main-switch {
+        margin-top: -500px;
+    }
+
+}
