@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './main/home/home.component';
 import { AboutComponent } from './main/about/about.component';
 import { CategoryComponent } from './main/category/category.component';
+import { IndexComponent } from './index/index.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CategoryComponent } from './main/category/category.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    CategoryComponent
+    CategoryComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
